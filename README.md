@@ -1,5 +1,24 @@
 # Fusion-Cycle
 
+this fork fixes the broken submodule and pins uv dependencies.
+
+this can now be installed via:
+
+```
+uv add "git+https://github.com/e-dorigatti/Fusion-Cycle"
+
+# get data
+wget https://zenodo.org/records/5970538/files/SolProp_v1.2.zip?download=1 \
+    && unzip "SolProp_v1.2.zip?download=1" \
+    && rm "SolProp_v1.2.zip?download=1" \
+```
+
+for development on this package, there are additional dependencies to be installed
+
+```
+uv sync --group dev
+```
+
 ### Overview
 
 This repository includes machine learning tools to estimate solubility.

@@ -1,0 +1,7 @@
+
+*.py[co]
+*.sw[po]
+__pycache__
+*.egg-info
+lightning_logs/
+.ipynb_checkpoints
