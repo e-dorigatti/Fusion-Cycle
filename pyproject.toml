@@ -25,3 +25,9 @@ include-package-data = true
 
 [tool.setuptools.package-data]
 Density = ["*.csv", "*.pkl"]
+
+[dependency-groups]
+dev = [
+    "jupyterlab>=4.6.4",
+    "matplotlib>=3.10.9",
+]
